@@ -6,6 +6,7 @@
 
 
 
+
 <h2> Android App</h1>
 <p> A movie app 📱🎦like Netflix that has a regester form and I had used 'google' text field to make the design more professional </p>
 <p> The application has a splash screen</p>
