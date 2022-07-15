@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="20dp">
+    <RelativeLayout
+        android:layout_width="170sp"
+        android:layout_height="250sp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/father_of_image">
+            <ImageView
+                android:layout_width="170sp"
+                android:layout_height="250sp"
+                android:id="@+id/movie_poster"
+                android:scaleType="centerCrop"
+                android:src="@drawable/netflix_logo_image"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/layout_back">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="movie_name"
+            android:id="@+id/movie_title"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="17dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
